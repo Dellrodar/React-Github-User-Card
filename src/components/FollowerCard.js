@@ -6,7 +6,6 @@ class FollowerCard extends React.Component {
     return (
       <CardGroup>
         {this.props.followers.map((follower) => (
-          console.log(follower),
         <Card>
           <CardImg top width="100%" src={follower.avatar_url} alt="Follower Avatar" />
           <CardBody>
