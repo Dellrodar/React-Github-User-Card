@@ -3,6 +3,7 @@ import axios from 'axios';
 import UserCard from './components/UserCard';
 import FollowerCard from './components/FollowerCard';
 import './App.css';
+import CardGroup from 'reactstrap/lib/CardGroup';
 
 class App extends React.Component {
 
@@ -31,7 +32,9 @@ axiosGet(`${baseUrl}/${user}/followers`)
       <div className="App">
         <header className="App-header">
           <UserCard userData={this.state.userData}/>
+          <CardGroup>
           <FollowerCard followers={this.state.followers} />
+          </CardGroup>
         </header>
       </div>
     );
