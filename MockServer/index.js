@@ -36,20 +36,21 @@ const userData = {
   received_events_url: 'https://api.github.com/users/Dellrodar/received_events',
   type: 'User',
   site_admin: false,
-  name: null,
+  name: 'Emilio',
   company: null,
   blog: '',
   location: null,
   email: null,
   hireable: null,
   bio: null,
-  public_repos: 21,
+  twitter_username: null,
+  public_repos: 36,
   public_gists: 0,
-  followers: 7,
-  following: 6,
+  followers: 11,
+  following: 9,
   created_at: '2013-01-23T17:13:09Z',
-  updated_at: '2020-04-14T22:52:49Z'
-};
+  updated_at: '2020-06-09T23:11:58Z'
+}
 
 const followerData = [
   {
